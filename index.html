@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div class="header-container">
+    <div class="center">
+        <img src="img/Untitled-1.png">
+        <p>Цены и варианты защиты</p>
+    </div>
+    <hr>
+</div>
+<div class="main-container">
+    <section>
+        <div class="top-container">
+            <div class="cars-container">
+                <div class="car">
+                    <div class="car-class">
+                        <p>класс mini<span>*</span></p>
+                    </div>
+                    <img src="img/picsCar/ситроен/чистый.jpg">
+                    <div class="car-price" data-class-name="мини">
+                        <p class="pointer">рассчитать стоимость</p>
+                        <img class="arrow" src="img/стрелка.png">
+                    </div>
+                </div>
+                <div class="car">
+                    <div class="car-class">
+                        <p>средний класс<span>*</span></p>
+                    </div>
+                    <img src="img/picsCar/мазда/чистая.jpg">
+                    <div class="car-price" data-class-name="средний">
+                        <p class="pointer">рассчитать стоимость</p>
+                        <img class="arrow" src="img/стрелка.png">
+                    </div>
+                </div>
+                <div class="car">
+                    <div class="car-class">
+                        <p>премиум класс<span>*</span></p>
+                    </div>
+                    <img src="img/picsCar/мерседес/чистый.jpg">
+                    <div class="car-price" data-class-name="премиум">
+                        <p class="pointer">рассчитать стоимость</p>
+                        <img class="arrow arrow--active" src="img/стрелка.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cars-pic-container">
+            <div class="left-side">
+                <div class="pics-container">
+                    <div class="car-pic">
+                        <img src="img/picsCar/мерседес/стандарт++.jpg">
+                    </div>
+                    <div class="details">
+                        <div class="part">
+                            <div class="part-image">
+                                <img src="img/часть%20капота.png">
+                            </div>
+                            <div class="detail-name">
+                                <p>часть</br>капота</p>
+                            </div>
+                        </div>
+                        <div class="part">
+                            <div class="part-image">
+                                <img src="img/часть-крыльев.png">
+                            </div>
+                            <div class="detail-name">
+                                <p>часть</br>крыльев</p>
+                            </div>
+                        </div>
+                        <div class="part">
+                            <div class="part-image">
+                                <img src="img/передний%20бампер.png">
+                            </div>
+                            <div class="detail-name">
+                                <p>передний</br> бампер</p>
+                            </div>
+                        </div>
+                        <div class="part">
+                            <div class="part-image">
+                                <img src="img/зеркала.png">
+                            </div>
+                            <div class="detail-name">
+                                <p>зеркала</p>
+                            </div>
+                        </div>
+                        <div class="part">
+                            <div class="part-image">
+                                <img src="img/фары.png">
+                            </div>
+                            <div class="detail-name">
+                                <p>фары</p>
+                            </div>
+                        </div>
+                        <div class="part">
+                            <div class="part-image">
+                                <img src="img/ручки.png">
+                            </div>
+                            <div class="detail-name">
+                                <p>ручки</p>
+                            </div>
+                        </div>
+                        <div class="part">
+                            <div class="part-image">
+                                <img src="img/Векторный%20смарт-объект%20копия%206.png">
+                            </div>
+                            <div class="detail-name">
+                                <p>противотуманки</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="information-container">
+                    <div class="price">
+                        <div class="red-price">
+                            <h3>Цена:</h3>
+                        </div>
+                        <hr>
+                        <div class="final-price">
+                            <p>Материалы + работа</p>
+                            <span>7000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="call">
+                        <p>позвоните мне</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="list">
+                <div class="line">
+                    <div class="plan-item" data-plan-name="минимальный">
+                        <p>минимальный</p>
+                    </div>
+                    <div class="plan-item" data-plan-name="стандарт">
+                        <p>стандарт</p>
+                    </div>
+                    <div class="plan-item" data-plan-name="стандарт+">
+                        <p>стандарт+</p>
+                    </div>
+                    <div class="plan-item plan-item--active" data-plan-name="стандарт++">
+                        <p>стандарт++</p>
+                    </div>
+                    <div class="plan-item" data-plan-name="стандарт+++">
+                        <p>стандарт+++</p>
+                    </div>
+                    <div class="plan-item" data-plan-name="целиком">
+                        <p>целиком</p>
+                    </div>
+                    <p class="plan-item-parts">частями <img src="img/галочка.png"></p>
+                    <div class="dropdown-content" id="dropdown-items">
+                        <div class="plan-item" data-plan-image="оптика">
+                            <p>оптика</p>
+                        </div>
+                        <div class="plan-item" data-plan-image="пороги-внутренние">
+                            <p>пороги внутренние</p>
+                        </div>
+                        <div class="plan-item" data-plan-image="пороги-наружные">
+                            <p>пороги наружные</p>
+                        </div>
+                        <div class="plan-item" data-plan-image="двери">
+                            <p>двери(4 шт)</p>
+                        </div>
+                        <div class="plan-item" data-plan-image="задние-крылья">
+                            <p>задние крылья</p>
+                        </div>
+                        <div class="plan-item" data-plan-image="капот">
+                            <p>капот</p>
+                        </div>
+                        <div class="plan-item" data-plan-image="передний-бампер">
+                            <p>передний бампер</p>
+                        </div>
+                        <div class="plan-item" data-plan-image="задний-бампер">
+                            <p>задний бампер</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
