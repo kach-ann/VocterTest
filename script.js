@@ -27,15 +27,6 @@ const parts = {
 var selectedClass = "премиум";
 
 const dropdownBtn = document.querySelector('.plan-item-parts');
-/*
-
-dropdownBtn.addEventListener('mouseover', function () {
-    dropdownBtn.classList.add('plan-item-parts--active');
-});
-*/
-
-
-
 
 dropdownBtn.addEventListener('click', function () {
     const dropdownItems = document.getElementById('dropdown-items');
@@ -47,8 +38,6 @@ dropdownBtn.addEventListener('click', function () {
         dropdownBtn.classList.add('plan-item-parts--active');
     }
 });
-
-
 
 let pointer = document.querySelectorAll('.car-price');
 pointer.forEach(function(elem) {
